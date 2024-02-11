@@ -19,7 +19,6 @@
         display: flex;
         margin: 2%;
         background-color: #fcfbf5;
-
     }
     .aside{
         display: flex;

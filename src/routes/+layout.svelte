@@ -17,8 +17,8 @@
       data = handleNpsData(e.target.children[1].value);
     }}
   >
-    <p>Select State</p>
-    <input type="text" name="state" id="state" />
+    <p>Select State: CO, AK, NY...</p>
+    <input type="text" name="state" id="state" maxlength="2" />
     <button>Lets Go!</button>
   </form>
   {#if data}
